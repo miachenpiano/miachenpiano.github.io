@@ -1,0 +1,261 @@
+#navbar li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 0.9em;
+  padding-left: 0.9em;
+}
+
+#navbar li.last {
+  border: none;
+}
+
+#navbar {
+  font-family: Spartan, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  animation: backgroundColorPalette 20s infinite;
+  padding: 20px 10px 10px 10px;
+  margin: -10px -10px 0px -10px;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  left: 0;
+}
+
+#navbar a {
+  color: #313638;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #BEC4C6;
+  text-decoration: none;
+}
+
+.title {
+  font-family: "DM Serif Text", sans-serif;
+  text-align: center;
+  margin: -8px -10px 0px -10px;
+  animation: backgroundColorPalette 20s infinite;
+  padding: 150px 10px 40px 10px;
+  font-size: 45px;
+}
+
+.logo {
+  height: 8%;
+  width: 10%;
+  padding-right: 700px;
+  padding-top: 20px;
+}
+
+.textcolor {
+  animation: textcolor 20s infinite;
+}
+
+.welcome {
+  font-family: Spartan, sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#arrow {
+  text-decoration: none;
+  color: #BEC4C6;
+}
+
+.arrow-motion {
+  animation: bobble 2s infinite;
+}
+
+
+.meet_me {
+  background-color: #F8F5F1;
+  font-family: "DM Serif Text", sans-serif;
+  color: #5A7A3E;
+  padding: 100px 100px 100px 80px;
+  margin: -10px -10px 0px -10px;
+text-align: left;
+}
+
+.bio {
+  font-family: Spartan, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #312951;
+text-align: left;
+
+}
+
+.example{
+  margin: -10px -10px 0px -10px;
+  display:  block;
+  background-color: #FFDED6;
+  padding: 10px 440px 10px 440px;
+}
+
+.mission {
+  background-color: #F8FBEF;
+  text-align: left;
+  font-family: "DM Serif Text", sans-serif;
+  padding: 80px 30px 150px 30px;
+  margin: 0px -10px 0px -10px;
+  color: #5A7A3E;
+  font-size: 25px;
+}
+
+.missiontext {
+  color: #312951;
+  margin: 20px 100px 0px 100px;
+  font-size: 16px;
+  font-family: Spartan, sans-serif;
+}
+
+.lessons {
+  background-color: #F1F7EE;
+  color: #5A7A3E;
+  font-family: "DM Serif Text", sans-serif;
+  padding: 80px 80px 150px 80px;
+  margin: 0px -10px 0px -10px;
+text-align: left;
+}
+
+.lessontext {
+  color: #312951;
+  font-family: Spartan, sans-serif;
+text-align: left;
+}
+
+.connect {
+  background-color: #FAFDED;
+  font-family: "DM Serif Text", sans-serif;
+  padding: 40px 80px 40px 80px;
+  margin: 0px -10px 0px -10px;
+  color: #00A676;
+}
+
+.connecttext {
+  font-family: Spartan, sans-serif;
+}
+
+
+@keyframes bobble {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+
+  30% {
+    transform: scale(0.9, 1.1) translateY(-7px);
+  }
+
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: #FBF5DA;
+  }
+
+  20% {
+    background: #FBF5DA;
+  }
+
+  20.1% {
+    background: #23D172;
+  }
+
+  40% {
+    background: #23D172;
+  }
+
+  40.1% {
+    background: #E4FDD8;
+  }
+
+  60% {
+    background: #E4FDD8;
+  }
+
+  60.1% {
+    background: #F4594E;
+  }
+
+  80% {
+    background: #F4594E;
+  }
+
+  80.1% {
+    background: #FFDED6;
+  }
+
+  100% {
+    background: #FFDED6;
+  }
+}
+
+@keyframes textcolor {
+  0% {
+    color: #23D172;
+  }
+
+  20% {
+    color: #23D172;
+  }
+
+  20.1% {
+    color: #FBF5DA;
+  }
+
+  40% {
+    color: #FBF5DA;
+  }
+
+  40.1% {
+    color: #F2BF18;
+  }
+
+  60% {
+    color: #F2BF18;
+  }
+
+  60.1% {
+    color: #FFDED6;
+  }
+
+  80% {
+    color: #FFDED6;
+  }
+
+  80.1% {
+    color: #F4594E;
+  }
+
+  100% {
+    color: #F4594E;
+  }
+}
+
+.floatRight{
+  float: right;
+width: 12%;
+height: 8%;
+  }
+
+.floatLeft{
+  float: left;
+width: 12%;
+height: 8%;
+  }
+
+
