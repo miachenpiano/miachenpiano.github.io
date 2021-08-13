@@ -23,6 +23,11 @@ a:hover {
   text-decoration: none;
 }
 
+.logo{
+  height: 20%;
+  width: 20%;
+}
+
 .container_title_page {
   display: grid;
   width: 100%;
