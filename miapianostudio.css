@@ -1,123 +1,88 @@
-#logo {
-  float: left;
-  display: inline-block;
-   height: 8%;
-  width: 10%;
-}
-
-.logo{
-  width: 20%;
-  height: 20%;
-}
-
-.clear {
-  clear: both;
-}
-
-#navbar{
-  animation: backgroundColorPalette 20s infinite;
+.container_nav {
   width: 100%;
-  color: #313638;
-  font-family: Spartan, sans-serif;
-   font-size: 0.8em;
-  font-weight: bold;
+  animation: backgroundColorPalette 20s infinite;
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: auto 15% 15% 15% 15% 15%;
+  
+  /* could let logo take up more than one column */
+  grid-column-gap: 5px;
+
 }
 
-.navbar{
-  float: right;
-  list-style: none;
-  text-align: center;
-  margin: 0;
-  width: 50%;
-  padding-top: 10px;
-}
-
-.navbar>li{
-  display:inline-block;
- padding: 10px 20px 10px 20px;
-}
-
-.navbar>li a{
-  color: #313638;
+a {
   text-decoration: none;
-}
-.navbar>li>a:hover{
-  color: #BEC4C6;
-  text-decoration: none;
-}
-/*#navbar li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding-right: 0.9em;
-  padding-left: 0.9em;
-}
-
-#navbar li.last {
-  border: none;
-}
-
-#navbar {
+  color: #313638;
   font-family: Spartan, sans-serif;
   font-size: 0.8em;
   font-weight: bold;
-  text-align: center;
-  animation: backgroundColorPalette 20s infinite;
-  padding: 0px 10px 10px 10px;
-  z-index: 999;
-  width: 100%;
 }
 
-#navbar a {
-  color: #313638;
-  text-decoration: none;
-}
-
-#navbar a:hover {
+a:hover {
   color: #BEC4C6;
   text-decoration: none;
 }
 
-.navbar {
-  float: right;
+.container_title_page {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 200px 50px 30px;
+  animation: backgroundColorPalette 20s infinite;
+  padding-bottom: 20px;
 }
-*/
+
 .title {
   font-family: "DM Serif Text", sans-serif;
   text-align: center;
-  margin: auto;
-  animation: backgroundColorPalette 20s infinite;
-  padding: 150px 10px 40px 10px;
-  font-size: 45px;
+  animation: textcolor 20s infinite;
+  font-size: 50px;
+  padding-top: 50px;
 }
 
-.textcolor {
+.meet_me {
+  font-family: Spartan, sans-serif;
+  font-size: 20px;
+  text-align: center;
   animation: textcolor 20s infinite;
 }
 
-.welcome {
-  font-family: Spartan, sans-serif;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-#arrow {
+.arrow {
+  animation: bobble 2s infinite;
   text-decoration: none;
   color: #BEC4C6;
+  text-align: center;
 }
 
-.arrow-motion {
-  animation: bobble 2s infinite;
+.material-icons-outlined {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-
-.meet_me {
+.container_welcome_page {
+  display: grid;
+  grid-template-rows: auto 200px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #F8F5F1;
+}
+
+.welcome {
   font-family: "DM Serif Text", sans-serif;
   color: #5A7A3E;
-  padding: 100px 150px 100px 80px;
-  margin: -10px -10px 0px -10px;
   text-align: center;
+  grid-column: 1/6;
+  grid-row: 1/2;
+  font-size: 30px;
 }
 
 .bio {
@@ -126,60 +91,83 @@
   font-weight: normal;
   color: #312951;
   text-align: center;
+  grid-row: 2/3;
+  grid-column: 2/5;
 
 }
 
-.example {
-  margin: auto;
-  background-color: #FFDED6;
-  padding: 100px 10px 10px 10px;
-  display: block;
+.container_videos {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: #FBF5DA;
+
 }
 
-.mission {
+.videos {
+  grid-column: 2/5;
+
+  /* make it shrink */
+}
+
+.container_mission {
+  display: grid;
+  grid-template-rows: auto 200px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #F8FBEF;
+}
+
+.mission-title {
   text-align: center;
   font-family: "DM Serif Text", sans-serif;
-  padding: 80px 30px 150px 30px;
-  margin: 0px -10px 0px -10px;
   color: #5A7A3E;
-  font-size: 25px;
+  font-size: 30px;
+  grid-column: 1/6;
 }
 
 .missiontext {
   color: #312951;
-  margin: 20px 100px 0px 100px;
   font-size: 16px;
   font-family: Spartan, sans-serif;
-}
-
-.lessons {
-  background-color: #F1F7EE;
-  color: #5A7A3E;
-  font-family: "DM Serif Text", sans-serif;
-  padding: 80px 80px 150px 80px;
-  margin: 0px -10px 0px -10px;
+  grid-column: 2/5;
   text-align: center;
 }
 
-.lessontext {
+.lesson_container{
+  background-color: #F1F7EE;
+  display: grid;
+  grid-template-rows: auto 200px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.lessons{
+  color: #5A7A3E;
+  font-family: "DM Serif Text", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  grid-column: 1/6;
+}
+
+.lessontext{
   color: #312951;
   font-family: Spartan, sans-serif;
   text-align: center;
+  grid-column: 2/5;
 }
 
-.connect {
+.container_connect{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #FAFDED;
   font-family: "DM Serif Text", sans-serif;
-  padding: 40px 80px 40px 80px;
-  margin: 0px -10px 0px -10px;
   color: #00A676;
 }
 
-.connecttext {
-  font-family: Spartan, sans-serif;
+.connect{
+  font-size: 20px;
 }
-
+.connecttext{
+  font-family: Spartan, sans-serif;
+  grid-column: 2/4;
+}
 
 @keyframes bobble {
   0% {
@@ -201,52 +189,6 @@
   100% {
     transform: scale(1, 1) translateY(0);
   }
-}
-
-@keyframes backgroundColorPalette {
-  0% {
-    background: #FBF5DA;
-  }
-
-  20% {
-    background: #FBF5DA;
-  }
-
-  20.1% {
-    background: #23D172;
-  }
-
-  40% {
-    background: #23D172;
-  }
-
-  40.1% {
-    background: #E4FDD8;
-  }
-
-  60% {
-    background: #E4FDD8;
-  }
-
-  60.1% {
-    background: #F4594E;
-  }
-
-  80% {
-    background: #F4594E;
-  }
-
-  80.1% {
-    background: #FFDED6;
-  }
-
-  100% {
-    background: #FFDED6;
-  }
-}
-
-.textcolor {
-  animation: textcolor 20s infinite;
 }
 
 @keyframes textcolor {
@@ -291,8 +233,45 @@
   }
 }
 
-.floatRight {
-  float: right;
-  margin-left: 20px;
+@keyframes backgroundColorPalette {
+  0% {
+    background: #FBF5DA;
+  }
+
+  20% {
+    background: #FBF5DA;
+  }
+
+  20.1% {
+    background: #23D172;
+  }
+
+  40% {
+    background: #23D172;
+  }
+
+  40.1% {
+    background: #E4FDD8;
+  }
+
+  60% {
+    background: #E4FDD8;
+  }
+
+  60.1% {
+    background: #F4594E;
+  }
+
+  80% {
+    background: #F4594E;
+  }
+
+  80.1% {
+    background: #FFDED6;
+  }
+
+  100% {
+    background: #FFDED6;
+  }
 }
 
