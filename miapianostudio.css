@@ -76,7 +76,7 @@ a:hover {
 
 .container_welcome_page {
   display: grid;
-  grid-template-rows: auto 200px;
+  grid-template-rows: 50px 100px 200px 80px;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #F8F5F1;
 }
@@ -86,7 +86,7 @@ a:hover {
   color: #5A7A3E;
   text-align: center;
   grid-column: 1/6;
-  grid-row: 1/2;
+  grid-row: 2/3;
   font-size: 30px;
 }
 
@@ -96,7 +96,7 @@ a:hover {
   font-weight: normal;
   color: #312951;
   text-align: center;
-  grid-row: 2/3;
+  grid-row: 3/4;
   grid-column: 2/5;
 
 }
@@ -116,7 +116,7 @@ a:hover {
 
 .container_mission {
   display: grid;
-  grid-template-rows: auto 200px;
+  grid-template-rows: 50px 100px 200px 50px;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #F8FBEF;
 }
@@ -127,12 +127,14 @@ a:hover {
   color: #5A7A3E;
   font-size: 30px;
   grid-column: 1/6;
+  grid-row: 2/3;
 }
 
 .missiontext {
   color: #312951;
   font-size: 16px;
   font-family: Spartan, sans-serif;
+  grid-row: 3/4;
   grid-column: 2/5;
   text-align: center;
 }
@@ -140,7 +142,7 @@ a:hover {
 .lesson_container{
   background-color: #F1F7EE;
   display: grid;
-  grid-template-rows: auto 200px;
+  grid-template-rows: 50px 100px 140px 50px;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
 .lessons{
@@ -149,18 +151,21 @@ a:hover {
   text-align: center;
   font-size: 30px;
   grid-column: 1/6;
+  grid-row: 2/3;
 }
 
 .lessontext{
   color: #312951;
   font-family: Spartan, sans-serif;
   text-align: center;
+   grid-row: 3/4;
   grid-column: 2/5;
 }
 
 .container_connect{
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20px 20px 20px 20px;
   background-color: #FAFDED;
   font-family: "DM Serif Text", sans-serif;
   color: #00A676;
@@ -168,10 +173,12 @@ a:hover {
 
 .connect{
   font-size: 20px;
+  grid-row: 2/4;
 }
 .connecttext{
   font-family: Spartan, sans-serif;
   grid-column: 2/4;
+  grid-row: 2/4;
 }
 
 @keyframes bobble {
