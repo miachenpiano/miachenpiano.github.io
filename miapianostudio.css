@@ -39,7 +39,7 @@ a:hover {
 .container_title_page {
   display: grid;
   width: 100%;
-  height: 60vh;
+  height: 30vh;
   grid-template-rows: 65% 20% 15%;
   animation: backgroundColorPalette 20s infinite;
   padding-bottom: 20px;
@@ -85,7 +85,7 @@ a:hover {
 .container_welcome_page {
   display: grid;
   width: 100%;
-  height: 80vh;
+  height: 40vh;
   grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #F8F5F1;
@@ -127,7 +127,7 @@ a:hover {
 .container_mission {
   display: grid;
   width: 100%;
-  height: 70vh;
+  height: 30vh;
   grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #F8FBEF;
@@ -155,7 +155,7 @@ a:hover {
   background-color: #F1F7EE;
   display: grid;
   width: 100%;
-  height: 70vh;
+  height: 30vh;
   grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
