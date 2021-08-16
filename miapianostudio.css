@@ -317,20 +317,19 @@ a:hover {
 
 @media only screen and (max-device-width: 480px) {
   .container_title_page {
-    height: 30vh;
+    height: 70vh;
   }
 
   .container_welcome_page {
-    height: 40vh;
+    height: 60vh;
   }
 
   .container_mission {
-    height: 30vh;
+    height: 60vh;
   }
 
   .lesson_container {
-    height: 30vh;
+    height: 60vh;
   }
 
 }
-
