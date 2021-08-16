@@ -29,9 +29,10 @@ a:hover {
   text-decoration: none;
 }
 
-.logo{
-  height: 20%;
-  width: 20%;
+.logo {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
 }
 
 .container_title_page {
