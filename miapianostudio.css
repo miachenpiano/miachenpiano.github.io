@@ -35,6 +35,7 @@ a:hover {
   height: auto;
   width: 60%;
   object-fit: contain;
+  padding-left: 10%;
 }
 
 .container_title_page {
