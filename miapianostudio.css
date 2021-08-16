@@ -1,13 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container_nav {
   width: 100%;
   animation: backgroundColorPalette 20s infinite;
   display: grid;
-  grid-template-rows: 50px;
+  grid-template-rows: 20px 50px;
   grid-template-columns: auto 15% 15% 15% 15% 15%;
-  
+
   /* could let logo take up more than one column */
   grid-column-gap: 5px;
-
+  padding-top: 20px;
 }
 
 a {
