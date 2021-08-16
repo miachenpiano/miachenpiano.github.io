@@ -6,9 +6,10 @@
 
 .container_nav {
   width: 100%;
+  height: 5%;
   animation: backgroundColorPalette 20s infinite;
   display: grid;
-  grid-template-rows: 20px 50px;
+  grid-template-rows: 20% auto;
   grid-template-columns: auto 15% 15% 15% 15% 15%;
 
   /* could let logo take up more than one column */
@@ -38,7 +39,8 @@ a:hover {
 .container_title_page {
   display: grid;
   width: 100%;
-  grid-template-rows: 200px 50px 30px;
+  height: 60vh;
+  grid-template-rows: 65% 20% 15%;
   animation: backgroundColorPalette 20s infinite;
   padding-bottom: 20px;
 }
@@ -48,7 +50,6 @@ a:hover {
   text-align: center;
   animation: textcolor 20s infinite;
   font-size: 50px;
-  padding-top: 50px;
 }
 
 .meet_me {
@@ -83,7 +84,9 @@ a:hover {
 
 .container_welcome_page {
   display: grid;
-  grid-template-rows: 50px 100px 200px 80px;
+  width: 100%;
+  height: 80vh;
+  grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #F8F5F1;
 }
@@ -123,7 +126,9 @@ a:hover {
 
 .container_mission {
   display: grid;
-  grid-template-rows: 50px 100px 200px 50px;
+  width: 100%;
+  height: 70vh;
+  grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #F8FBEF;
 }
@@ -146,13 +151,16 @@ a:hover {
   text-align: center;
 }
 
-.lesson_container{
+.lesson_container {
   background-color: #F1F7EE;
   display: grid;
-  grid-template-rows: 50px 100px 140px 50px;
+  width: 100%;
+  height: 70vh;
+  grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
-.lessons{
+
+.lessons {
   color: #5A7A3E;
   font-family: "DM Serif Text", sans-serif;
   text-align: center;
@@ -161,30 +169,32 @@ a:hover {
   grid-row: 2/3;
 }
 
-.lessontext{
+.lessontext {
   color: #312951;
   font-family: Spartan, sans-serif;
   text-align: center;
-   grid-row: 3/4;
+  grid-row: 3/4;
   grid-column: 2/5;
 }
 
-.container_connect{
+.container_connect {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 5% 20% 20% 20% 15%;
   grid-template-rows: 20px 20px 20px 20px;
   background-color: #FAFDED;
   font-family: "DM Serif Text", sans-serif;
   color: #00A676;
 }
 
-.connect{
+.connect {
   font-size: 20px;
   grid-row: 2/4;
+  grid-column: 2/3;
 }
-.connecttext{
+
+.connecttext {
   font-family: Spartan, sans-serif;
-  grid-column: 2/4;
+  grid-column: 3/5;
   grid-row: 2/4;
 }
 
