@@ -120,7 +120,7 @@ a:hover {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: #FBF5DA;
-
+  height: 50vh;
 }
 
 .videos {
