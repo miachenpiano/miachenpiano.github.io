@@ -5,7 +5,7 @@
 }
 
 .container_nav {
-  width: 100%;
+  width: 100vh;
   height: 5%;
   animation: backgroundColorPalette 20s infinite;
   display: grid;
@@ -40,7 +40,7 @@ a:hover {
 
 .container_title_page {
   display: grid;
-  width: 100%;
+  width: 100vh;
   height: 30vh;
   grid-template-rows: 35% 30% 10% 20% 5%;
   animation: backgroundColorPalette 20s infinite;
@@ -89,7 +89,7 @@ a:hover {
 
 .container_welcome_page {
   display: grid;
-  width: 100%;
+  width: 100vh;
   height: 40vh;
   grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -131,7 +131,7 @@ a:hover {
 
 .container_mission {
   display: grid;
-  width: 100%;
+  width: 100vh;
   height: 30vh;
   grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -159,7 +159,7 @@ a:hover {
 .lesson_container {
   background-color: #F1F7EE;
   display: grid;
-  width: 100%;
+  width: 100vh;
   height: 30vh;
   grid-template-rows: 10% 30% 70%;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -189,6 +189,7 @@ a:hover {
   background-color: #FAFDED;
   font-family: "DM Serif Text", sans-serif;
   color: #00A676;
+  width: 100vh;
 }
 
 .connect {
