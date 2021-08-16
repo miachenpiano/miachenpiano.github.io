@@ -15,6 +15,7 @@
   /* could let logo take up more than one column */
   grid-column-gap: 5px;
   padding-top: 20px;
+  position: fixed;
 }
 
 a {
