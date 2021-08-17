@@ -190,10 +190,11 @@ a:hover {
 .container_connect {
   display: grid;
   grid-template-columns: 5% 20% 20% 20% 15%;
-  grid-template-rows: 20px 20px 20px auto;
+  grid-template-rows: 20% 20% 20% auto;
   background-color: #FAFDED;
   font-family: "DM Serif Text", sans-serif;
   color: #00A676;
+  height: 10vh;
 }
 
 .connect {
