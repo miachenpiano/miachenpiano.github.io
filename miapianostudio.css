@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #BEC4C6;
+  color: #bec4c6;
   text-decoration: none;
 }
 
@@ -41,6 +41,7 @@ a:hover {
 .container_title_page {
   display: flex;
   flex-direction: column;
+  height: 80vh;
   animation: backgroundColorPalette 20s infinite;
   padding-bottom: 20px;
 }
@@ -50,7 +51,7 @@ a:hover {
   text-align: center;
   animation: textcolor 20s infinite;
   font-size: 50px;
-  padding-top: 50vh;
+  padding-top: 35vh;
 }
 
 .meet_me {
@@ -58,19 +59,19 @@ a:hover {
   font-size: 20px;
   text-align: center;
   animation: textcolor 20s infinite;
-  padding-top: 40vh;
+  padding-top: 20vh;
 }
 
 .arrow {
   animation: bobble 2s infinite;
   text-decoration: none;
-  color: #BEC4C6;
+  color: #bec4c6;
   text-align: center;
   grid-row: 5/6;
 }
 
 .material-icons-outlined {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -86,20 +87,17 @@ a:hover {
 }
 
 .container_welcome_page {
-  display: grid;
-  width: 100%;
-  height: 40vh;
-  grid-template-rows: 10% 15% 85%;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  background-color: #F8F5F1;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background-color: #f8f5f1;
 }
 
 .welcome {
   font-family: "DM Serif Text", sans-serif;
-  color: #5A7A3E;
+  color: #5a7a3e;
   text-align: center;
-  grid-column: 1/6;
-  grid-row: 2/3;
+  padding-top: 20vh;
   font-size: 30px;
 }
 
@@ -109,89 +107,89 @@ a:hover {
   font-weight: normal;
   color: #312951;
   text-align: center;
-  grid-row: 3/4;
-  grid-column: 2/5;
-
+  padding-top: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  line-height: 25px;
 }
 
 .container_videos {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  background-color: #FBF5DA;
-  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background-color: #fbf5da;
 }
 
 .videos {
-  grid-column: 2/5;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10vh;
 
   /* make it shrink */
 }
 
-.videostyle {
-  max-width: 100%;
-  object-fit: contain;
-}
-
 .container_mission {
-  display: grid;
-  width: 100%;
-  height: 30vh;
-  grid-template-rows: 10% 15% 85%;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  background-color: #F8FBEF;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background-color: #f8fbef;
 }
 
 .mission-title {
   text-align: center;
   font-family: "DM Serif Text", sans-serif;
-  color: #5A7A3E;
+  color: #5a7a3e;
+  padding-top: 20vh;
   font-size: 30px;
-  grid-column: 1/6;
-  grid-row: 2/3;
 }
 
 .missiontext {
   color: #312951;
   font-size: 16px;
   font-family: Spartan, sans-serif;
-  grid-row: 3/4;
-  grid-column: 2/5;
+  padding-top: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  line-height: 25px;
   text-align: center;
 }
 
 .lesson_container {
-  background-color: #F1F7EE;
-  display: grid;
+  background-color: #f1f7ee;
   width: 100%;
-  height: 30vh;
-  grid-template-rows: 10% 15% 85%;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
 }
 
 .lessons {
-  color: #5A7A3E;
+  color: #5a7a3e;
   font-family: "DM Serif Text", sans-serif;
   text-align: center;
   font-size: 30px;
-  grid-column: 1/6;
-  grid-row: 2/3;
+  padding-top: 20vh;
+  font-size: 30px;
 }
 
 .lessontext {
   color: #312951;
   font-family: Spartan, sans-serif;
   text-align: center;
-  grid-row: 3/4;
-  grid-column: 2/5;
+  padding-top: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  line-height: 25px;  
 }
 
 .container_connect {
   display: grid;
   grid-template-columns: 5% 20% 20% 20% 15%;
   grid-template-rows: 20% 20% 20% auto;
-  background-color: #FAFDED;
+  background-color: #fafded;
   font-family: "DM Serif Text", sans-serif;
-  color: #00A676;
+  color: #00a676;
   height: 10vh;
 }
 
@@ -231,85 +229,85 @@ a:hover {
 
 @keyframes textcolor {
   0% {
-    color: #23D172;
+    color: #23d172;
   }
 
   20% {
-    color: #23D172;
+    color: #23d172;
   }
 
   20.1% {
-    color: #FBF5DA;
+    color: #fbf5da;
   }
 
   40% {
-    color: #FBF5DA;
+    color: #fbf5da;
   }
 
   40.1% {
-    color: #F2BF18;
+    color: #f2bf18;
   }
 
   60% {
-    color: #F2BF18;
+    color: #f2bf18;
   }
 
   60.1% {
-    color: #FFDED6;
+    color: #ffded6;
   }
 
   80% {
-    color: #FFDED6;
+    color: #ffded6;
   }
 
   80.1% {
-    color: #F4594E;
+    color: #f4594e;
   }
 
   100% {
-    color: #F4594E;
+    color: #f4594e;
   }
 }
 
 @keyframes backgroundColorPalette {
   0% {
-    background: #FBF5DA;
+    background: #fbf5da;
   }
 
   20% {
-    background: #FBF5DA;
+    background: #fbf5da;
   }
 
   20.1% {
-    background: #23D172;
+    background: #23d172;
   }
 
   40% {
-    background: #23D172;
+    background: #23d172;
   }
 
   40.1% {
-    background: #E4FDD8;
+    background: #e4fdd8;
   }
 
   60% {
-    background: #E4FDD8;
+    background: #e4fdd8;
   }
 
   60.1% {
-    background: #F4594E;
+    background: #f4594e;
   }
 
   80% {
-    background: #F4594E;
+    background: #f4594e;
   }
 
   80.1% {
-    background: #FFDED6;
+    background: #ffded6;
   }
 
   100% {
-    background: #FFDED6;
+    background: #ffded6;
   }
 }
 
@@ -329,6 +327,4 @@ a:hover {
   .lesson_container {
     height: 80vh;
   }
-
 }
-
